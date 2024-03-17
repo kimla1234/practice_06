@@ -1,0 +1,12 @@
+/* NavBar.module.css */
+.bgNav {
+  background-color: #253c95; /* or any other desired color */
+}
+
+.logoText {
+  margin-left: 8px; /* Adjust the margin as needed to position the text properly */
+  color: white; /* Text color */
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+

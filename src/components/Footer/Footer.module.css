@@ -1,0 +1,70 @@
+.footer {
+  background-color: #253c95;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  flex-basis: 25%; /* Adjust width as needed */
+  display: flex;
+  flex-direction: column; /* Change to column layout */
+  align-items: center; 
+}
+
+.logo img {
+  /* Style the logo image size and margin */
+  margin-right: 0px;
+  padding-right: 60px; /* Add margin between logo and slogan */
+}
+.logo p {
+  /* Style the slogan text (font size, color, etc.) */
+  margin-top: 20px; /* Add margin between slogan and logo */
+}
+
+.section {
+  flex-basis: 20%; /* Reduce section width slightly */
+  padding: 10px; 
+  margin-right: 20px; /* Add margin to the right of each section */
+}
+
+
+.section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section li {
+  margin-bottom: 5px;
+}
+
+.section li a {
+  text-decoration: none;
+}
+
+.copyright {
+  padding-top: 20px;
+  text-align: center;
+}
+.line {
+  width: 75%; 
+  height: 5px; 
+  background-color: rgba(255, 255, 255, 0.3); /* Adjust opacity as needed */ 
+  margin: 15px 0; /*  Add spacing above and below the line */
+}
+
